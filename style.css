@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+div#navbarSupportedContent {
+    text-align: center;
+}
+
+#header-area ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+#header-area {
+    background-color: #2D25A0;
+    height: 680px;
+    padding-top: 30px;
+}
+.btn-button {
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+}
+.header-title h1 {
+    font-size: 80px;
+}
+.header-img img {
+    width: 100%;
+    margin-top: 50px;
+}
+img {
+    width: 100%;
+}
+
+/* main-area */
+.players-section {
+    background-color: #e8e8e8;
+    padding: 50px 0 25px 0;
+}
+.players-card {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.players-card h3{
+    font-weight: 600;
+}
+.player-img {
+    margin-bottom: 20px;
+}
+.player-dtls p {
+    color: #6C6C6C;
+    line-height: 27px;
+}
+
+/* highlight-area */
+section.highlight-area {
+    padding: 120px 0;
+}
+.highlight-area h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+.highlight-area p {
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+/* footer */
+.logo img {
+    width: 450px;
+}
+.social-icon ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+}
+.social-icon ul li a {
+    font-size: 22px;
+    color: gray;
+}
+.footer-area p {
+    margin-top: 55px;
+}
